@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/world.js"></script>
+
+</head>
+<body >
+    <div id="a9d3730b37bb49a59057bf59d52c0264" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_a9d3730b37bb49a59057bf59d52c0264 = echarts.init(
+            document.getElementById('a9d3730b37bb49a59057bf59d52c0264'), 'white', {renderer: 'canvas'});
+        var option_a9d3730b37bb49a59057bf59d52c0264 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "map",
+                "name": "box office of Intersteller",
+                "label": {
+                    "show": false,
+                    "position": "inside",
+                    "margin": 8,
+                    "fontSize": 15
+                },
+                "map": "world",
+                "data": [
+                    {
+                        "name": "Norway",
+                        "value": "2020405"
+                    },
+                    {
+                        "name": "Spain",
+                        "value": "5512"
+                    },
+                    {
+                        "name": "United Kingdom",
+                        "value": "25888395"
+                    },
+                    {
+                        "name": "India",
+                        "value": "56608"
+                    }
+                ],
+                "roam": true,
+                "aspectScale": 0.75,
+                "nameProperty": "name",
+                "selectedMode": false,
+                "zoom": 1,
+                "zlevel": 0,
+                "z": 2,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "mapValueCalculation": "sum",
+                "showLegendSymbol": false,
+                "emphasis": {},
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "currentIndex": 0,
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "progress": {},
+            "data": [
+                "2014\u5e74\u9996\u6620",
+                "2017\u5e74\u91cd\u6620",
+                "2020\u5e74\u91cd\u6620",
+                "2022\u5e74\u91cd\u6620",
+                "2023\u5e74\u91cd\u6620"
+            ]
+        },
+        "visualMap": {
+            "show": true,
+            "type": "continuous",
+            "min": 0,
+            "max": 30000000,
+            "inRange": {
+                "color": [
+                    "#50a3ba",
+                    "#eac763",
+                    "#d94e5d"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "hoverLink": true,
+            "orient": "vertical",
+            "padding": 5,
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 140,
+            "borderWidth": 0
+        },
+        "legend": [
+            {
+                "data": [
+                    "box office of Intersteller"
+                ],
+                "selected": {},
+                "show": false,
+                "left": "left",
+                "top": "top",
+                "padding": 5,
+                "itemGap": 10,
+                "itemWidth": 25,
+                "itemHeight": 14,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderRadius": 0,
+                "pageButtonItemGap": 5,
+                "pageButtonPosition": "end",
+                "pageFormatter": "{current}/{total}",
+                "pageIconColor": "#2f4554",
+                "pageIconInactiveColor": "#aaa",
+                "pageIconSize": 15,
+                "animationDurationUpdate": 800,
+                "selector": false,
+                "selectorPosition": "auto",
+                "selectorItemGap": 7,
+                "selectorButtonGap": 10
+            }
+        ]
+    },
+    "options": [
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "box office of Intersteller",
+                    "label": {
+                        "show": false,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 15
+                    },
+                    "map": "world",
+                    "data": [
+                        {
+                            "name": "United States",
+                            "value": "188020017"
+                        },
+                        {
+                            "name": "Austria",
+                            "value": "2402313"
+                        },
+                        {
+                            "name": "Belgium",
+                            "value": "3620024"
+                        },
+                        {
+                            "name": "Bulgaria",
+                            "value": "350690"
+                        },
+                        {
+                            "name": "Croatia",
+                            "value": "460983"
+                        },
+                        {
+                            "name": "Czech Republic",
+                            "value": "1346964"
+                        },
+                        {
+                            "name": "Denmark",
+                            "value": "4218720"
+                        },
+                        {
+                            "name": "East Africa",
+                            "value": "28502"
+                        },
+                        {
+                            "name": "Egypt",
+                            "value": "1189904"
+                        },
+                        {
+                            "name": "Estonia",
+                            "value": "239862"
+                        },
+                        {
+                            "name": "Finland",
+                            "value": "2187887"
+                        },
+                        {
+                            "name": "France",
+                            "value": "23507933"
+                        },
+                        {
+                            "name": "Germany",
+                            "value": "19894798"
+                        },
+                        {
+                            "name": "Greece",
+                            "value": "1783366"
+                        },
+                        {
+                            "name": "Hungary",
+                            "value": "1363360"
+                        },
+                        {
+                            "name": "Iceland",
+                            "value": "288143"
+                        },
+                        {
+                            "name": "Israel",
+                            "value": "1049964"
+                        },
+                        {
+                            "name": "Italy",
+                            "value": "13545007"
+                        },
+                        {
+                            "name": "Kenya",
+                            "value": "45283"
+                        },
+                        {
+                            "name": "Latvia",
+                            "value": "140277"
+                        },
+                        {
+                            "name": "Lebanon",
+                            "value": "376148"
+                        },
+                        {
+                            "name": "Lithuania",
+                            "value": "50818"
+                        },
+                        {
+                            "name": "Netherlands",
+                            "value": "4604688"
+                        },
+                        {
+                            "name": "Nigeria",
+                            "value": "29198"
+                        },
+                        {
+                            "name": "Norway",
+                            "value": "30497367"
+                        },
+                        {
+                            "name": "Poland",
+                            "value": "19566886"
+                        },
+                        {
+                            "name": "Portugal",
+                            "value": "19133449"
+                        },
+                        {
+                            "name": "Serbia and Montenegro",
+                            "value": "316573"
+                        },
+                        {
+                            "name": "Slovakia",
+                            "value": "641714"
+                        },
+                        {
+                            "name": "Slovenia",
+                            "value": "119302"
+                        },
+                        {
+                            "name": "South Africa",
+                            "value": "710777"
+                        },
+                        {
+                            "name": "Spain",
+                            "value": "12097659"
+                        },
+                        {
+                            "name": "Sweden",
+                            "value": "7127568"
+                        },
+                        {
+                            "name": "Switzerland (French)",
+                            "value": "889475"
+                        },
+                        {
+                            "name": "Switzerland (German)",
+                            "value": "3891150"
+                        },
+                        {
+                            "name": "Turkey",
+                            "value": "4508240"
+                        },
+                        {
+                            "name": "Ukraine",
+                            "value": "1910294"
+                        },
+                        {
+                            "name": "United Arab Emirates",
+                            "value": "2325097"
+                        },
+                        {
+                            "name": "United Kingdom",
+                            "value": "34452006"
+                        },
+                        {
+                            "name": "Argentina",
+                            "value": "748623"
+                        },
+                        {
+                            "name": "Bolivia",
+                            "value": "125332"
+                        },
+                        {
+                            "name": "Brazil",
+                            "value": "6929200"
+                        },
+                        {
+                            "name": "Chile",
+                            "value": "1008764"
+                        },
+                        {
+                            "name": "Colombia",
+                            "value": "1310083"
+                        },
+                        {
+                            "name": "Ecuador",
+                            "value": "587783"
+                        },
+                        {
+                            "name": "Mexico",
+                            "value": "578733"
+                        },
+                        {
+                            "name": "Peru",
+                            "value": "958402"
+                        },
+                        {
+                            "name": "Uruguay",
+                            "value": "109668"
+                        },
+                        {
+                            "name": "Venezuela",
+                            "value": "2017643"
+                        },
+                        {
+                            "name": "Australia",
+                            "value": "14114359"
+                        },
+                        {
+                            "name": "Hong Kong",
+                            "value": "6676404"
+                        },
+                        {
+                            "name": "India",
+                            "value": "6853181"
+                        },
+                        {
+                            "name": "Japan",
+                            "value": "10396206"
+                        },
+                        {
+                            "name": "Malaysia",
+                            "value": "2560376"
+                        },
+                        {
+                            "name": "New Zealand",
+                            "value": "2728189"
+                        },
+                        {
+                            "name": "Philippines",
+                            "value": "1430687"
+                        },
+                        {
+                            "name": "Russia",
+                            "value": "19005881"
+                        },
+                        {
+                            "name": "Singapore",
+                            "value": "3676872"
+                        },
+                        {
+                            "name": "Korea",
+                            "value": "68945677"
+                        },
+                        {
+                            "name": "Taiwan",
+                            "value": "8579533"
+                        },
+                        {
+                            "name": "Thailand",
+                            "value": "2031300"
+                        },
+                        {
+                            "name": "Vietnam",
+                            "value": "130117"
+                        },
+                        {
+                            "name": "China",
+                            "value": "121990800"
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u300a\u661f\u9645\u7a7f\u8d8a\u300b\u5168\u7403\u7968\u623f",
+                    "target": "blank",
+                    "subtext": "\u6570\u636e\u6765\u6e90\u4e8eIMDb\n\u5355\u4f4d\uff1a\u7f8e\u5143",
+                    "subtarget": "blank",
+                    "left": "left",
+                    "top": "20",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false,
+                    "textStyle": {
+                        "fontSize": 30
+                    },
+                    "subtextStyle": {
+                        "fontSize": 20
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 200000000,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "box office of Intersteller",
+                    "label": {
+                        "show": false,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 15
+                    },
+                    "map": "world",
+                    "data": [
+                        {
+                            "name": "Finland",
+                            "value": "5910"
+                        },
+                        {
+                            "name": "Ukraine",
+                            "value": "11410"
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u300a\u661f\u9645\u7a7f\u8d8a\u300b\u5168\u7403\u7968\u623f",
+                    "target": "blank",
+                    "subtext": "\u6570\u636e\u6765\u6e90\u4e8eIMDb\n\u5355\u4f4d\uff1a\u7f8e\u5143",
+                    "subtarget": "blank",
+                    "left": "left",
+                    "top": "20",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false,
+                    "textStyle": {
+                        "fontSize": 30
+                    },
+                    "subtextStyle": {
+                        "fontSize": 20
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 12000,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "box office of Intersteller",
+                    "label": {
+                        "show": false,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 15
+                    },
+                    "map": "world",
+                    "data": [
+                        {
+                            "name": "Belgium",
+                            "value": "4667"
+                        },
+                        {
+                            "name": "Bulgaria",
+                            "value": "4887"
+                        },
+                        {
+                            "name": "Denmark",
+                            "value": "11194"
+                        },
+                        {
+                            "name": "Estonia",
+                            "value": "6976"
+                        },
+                        {
+                            "name": "Finland",
+                            "value": "18815"
+                        },
+                        {
+                            "name": "France",
+                            "value": "217247"
+                        },
+                        {
+                            "name": "Germany",
+                            "value": "43356"
+                        },
+                        {
+                            "name": "Greece",
+                            "value": "428"
+                        },
+                        {
+                            "name": "Iceland",
+                            "value": "8052"
+                        },
+                        {
+                            "name": "Italy",
+                            "value": "35306"
+                        },
+                        {
+                            "name": "Latvia",
+                            "value": "6994"
+                        },
+                        {
+                            "name": "Lithuania",
+                            "value": "2473"
+                        },
+                        {
+                            "name": "Netherlands",
+                            "value": "185188"
+                        },
+                        {
+                            "name": "Norway",
+                            "value": "40247"
+                        },
+                        {
+                            "name": "Poland",
+                            "value": "5879"
+                        },
+                        {
+                            "name": "Portugal",
+                            "value": "9068"
+                        },
+                        {
+                            "name": "Slovakia",
+                            "value": "7052"
+                        },
+                        {
+                            "name": "Spain",
+                            "value": "64912"
+                        },
+                        {
+                            "name": "Sweden",
+                            "value": "38104"
+                        },
+                        {
+                            "name": "Switzerland",
+                            "value": "48100"
+                        },
+                        {
+                            "name": "United Kingdom",
+                            "value": "129585"
+                        },
+                        {
+                            "name": "Brazil",
+                            "value": "11756"
+                        },
+                        {
+                            "name": "Mexico",
+                            "value": "637"
+                        },
+                        {
+                            "name": "Australia",
+                            "value": "1996"
+                        },
+                        {
+                            "name": "India",
+                            "value": "12819"
+                        },
+                        {
+                            "name": "Japan",
+                            "value": "1065088"
+                        },
+                        {
+                            "name": "New Zealand",
+                            "value": "3752"
+                        },
+                        {
+                            "name": "South Korea",
+                            "value": "152927"
+                        },
+                        {
+                            "name": "Taiwan",
+                            "value": "362484"
+                        },
+                        {
+                            "name": "Thailand",
+                            "value": "57730"
+                        },
+                        {
+                            "name": "China",
+                            "value": "17390291"
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u300a\u661f\u9645\u7a7f\u8d8a\u300b\u5168\u7403\u7968\u623f",
+                    "target": "blank",
+                    "subtext": "\u6570\u636e\u6765\u6e90\u4e8eIMDb\n\u5355\u4f4d\uff1a\u7f8e\u5143",
+                    "subtarget": "blank",
+                    "left": "left",
+                    "top": "20",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false,
+                    "textStyle": {
+                        "fontSize": 30
+                    },
+                    "subtextStyle": {
+                        "fontSize": 20
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 20000000,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "box office of Intersteller",
+                    "label": {
+                        "show": false,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 15
+                    },
+                    "map": "world",
+                    "data": [
+                        {
+                            "name": "Finland",
+                            "value": "3765"
+                        },
+                        {
+                            "name": "Kuwait",
+                            "value": "60496"
+                        },
+                        {
+                            "name": "Latvia",
+                            "value": "5177"
+                        },
+                        {
+                            "name": "Saudi Arabia",
+                            "value": "1706626"
+                        },
+                        {
+                            "name": "United Arab Emirates",
+                            "value": "70904"
+                        },
+                        {
+                            "name": "South Korea",
+                            "value": "162431"
+                        },
+                        {
+                            "name": "Vietnam",
+                            "value": "21604"
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u300a\u661f\u9645\u7a7f\u8d8a\u300b\u5168\u7403\u7968\u623f",
+                    "target": "blank",
+                    "subtext": "\u6570\u636e\u6765\u6e90\u4e8eIMDb\n\u5355\u4f4d\uff1a\u7f8e\u5143",
+                    "subtarget": "blank",
+                    "left": "left",
+                    "top": "20",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false,
+                    "textStyle": {
+                        "fontSize": 30
+                    },
+                    "subtextStyle": {
+                        "fontSize": 20
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 2000000,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "box office of Intersteller",
+                    "label": {
+                        "show": false,
+                        "position": "inside",
+                        "margin": 8,
+                        "fontSize": 15
+                    },
+                    "map": "world",
+                    "data": [
+                        {
+                            "name": "Norway",
+                            "value": "2020405"
+                        },
+                        {
+                            "name": "Spain",
+                            "value": "5512"
+                        },
+                        {
+                            "name": "United Kingdom",
+                            "value": "25888395"
+                        },
+                        {
+                            "name": "India",
+                            "value": "56608"
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u300a\u661f\u9645\u7a7f\u8d8a\u300b\u5168\u7403\u7968\u623f",
+                    "target": "blank",
+                    "subtext": "\u6570\u636e\u6765\u6e90\u4e8eIMDb\n\u5355\u4f4d\uff1a\u7f8e\u5143",
+                    "subtarget": "blank",
+                    "left": "left",
+                    "top": "20",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false,
+                    "textStyle": {
+                        "fontSize": 30
+                    },
+                    "subtextStyle": {
+                        "fontSize": 20
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30000000,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        }
+    ]
+};
+        chart_a9d3730b37bb49a59057bf59d52c0264.setOption(option_a9d3730b37bb49a59057bf59d52c0264);
+    </script>
+</body>
+</html>
