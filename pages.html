@@ -12,7 +12,11 @@
             width: 100%;
         }
 
-        body::after {
+        .box{
+            height:100%
+        }
+
+        .box::after {
         content: '';
         position: absolute;
         top: 0;
@@ -24,10 +28,6 @@
         background-repeat: no-repeat;
         opacity: 0.5; /* 调整这个值以改变透明度 */
         z-index: -1; /* 确保背景在内容之下 */
-        }
-
-        .box{
-            height:100%
         }
 
         .chart-container {
