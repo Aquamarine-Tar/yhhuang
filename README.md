@@ -49,4 +49,4 @@
 
 ### 词云
 
-[词云](wordcloudBBS.html)
+[词云](wordcloudBBS（new）.html)
